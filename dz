@@ -1,0 +1,112 @@
+//#include <iostream>
+//using namespace std;
+//
+//void printNumbers(int current, int n) {
+//    if (current > n) return;   
+//    cout << current << " ";
+//    printNumbers(current + 1, n);
+//}
+//
+//int main() {
+//    int n;
+//    cin >> n;
+//    printNumbers(1, n);
+//}
+
+//#include <iostream>
+//using namespace std;
+//
+//void printNumbers(int A, int B) {
+//    if (A > B) return;  
+//    cout << A << " ";
+//    printNumbers(A + 1, B);
+//}
+//
+//int main() {
+//    int A;
+//    cin >> A;
+//    int B;
+//    cin >> B;
+//    printNumbers(A, B);
+//}
+//#include <iostream>
+//using namespace std;
+//void stepen(int N,int n) {
+//    cout << "Print base number: ";
+//    cin >> n;
+//    cout << "Print number to check: ";
+//    cin >> N;
+//    if (N == n * n) {
+//        cout << "Yes\n";
+//    }
+//    else {
+//        cout << "No\n";
+//    }
+//    stepen(2, 8);
+//}
+//int main() {
+//    stepen(2,8);
+//
+//}
+//#include <iostream>
+//using namespace std;
+//int sumDigits(int n) {
+//    if (n == 0) return 0;          
+//    return n % 10 + sumDigits(n / 10);  
+//}
+//int main() {
+//    int N;
+//    cin >> N;
+//    cout << sumDigits(N);
+//}
+//#include <iostream>
+//using namespace std;
+//void printDigits(int n) {
+//    if (n < 10) {
+//        cout << n << " ";
+//    }
+//    else {
+//        cout << n % 10 << " ";
+//        printDigits(n / 10);
+//    }
+//}
+//int main() {
+//    int N;
+//    cout << "Print numb: ";
+//    cin >> N;
+//    printDigits(N);
+//}
+//#include <iostream>
+//using namespace std;
+//void printDigits(int n) {
+//    if (n < 10) {
+//        cout << n << " ";
+//    }
+//    else {
+//        printDigits(n / 10);
+//        cout << n % 10 << " ";
+//    }
+//}
+//int main() {
+//    int N;
+//    cout << "Print numb: ";
+//    cin >> N;
+//    printDigits(N);
+//}
+//#include <iostream>
+//using namespace std;
+//void printDigits(int n) {
+//    if (n < 10) {
+//        cout << n << " ";
+//    }
+//    else {
+//        cout << n % 10 ;
+//        printDigits(n / 10);
+//    }
+//}
+//int main() {
+//    int N;
+//    cout << "Print numb: ";
+//    cin >> N;
+//    printDigits(N);
+//}
